@@ -1,5 +1,5 @@
 <template>
-        <base-layout ProbeApp="LexMea - Product Details" footer= "© 2020 LexMea" page-default-back-link="/produkte">
+        <base-layout ProbeApp="Universität Mannheim - Ilias" footer= "Universität Mannheim" page-default-back-link="/produkte">
         <h1 v-if="loadedProduct">Product description</h1>
         <h1 v-else>couldnt load</h1>
         

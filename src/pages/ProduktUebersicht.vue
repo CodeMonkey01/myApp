@@ -1,5 +1,6 @@
 <template>
-        <base-layout ProbeApp="LexMea - Product Catalog" footer= "© 2020 LexMea">
+        <base-layout ProbeApp="Universität Mannheim - Ilias" footer= "© Universität Mannheim">
+            <img src="../assets/mannheim.png" style="max-width=35%;"/>
             <ion-list>
                 <ion-item v-for="produkt in produkte" 
                  :key="produkt.id"
